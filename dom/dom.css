@@ -1,0 +1,81 @@
+body {background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg')}
+h1  {
+    color:green;
+    text-align:center;
+    font-style: italic;
+    font-size: 500%;
+}
+p   {
+    color: white;
+    line-height: 0.5in;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    word-spacing: 0.5ex;
+}
+#snimka {
+    width: 500px;
+    height: 500px;
+}
+a   {
+    font-size: 500%;
+    text-align:center
+}
+button  {text-align: center;
+        font-size: 200%;
+}
+.container { 
+    height: 200px;
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+#kartinka   {width: 200px; height: 100px;}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .boq {
+    background-color: #c5b62c;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .dweboq {
+    background-color: #c5b62c;
+    color: black;
+    }
+    .dweboq:hover {
+    background-image: linear-gradient(to bottom right, orange, red, yellow);
+    color: black;}
+  .zelen  {text-align: center;}
+
